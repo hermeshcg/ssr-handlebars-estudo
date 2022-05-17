@@ -4,7 +4,7 @@ sintaxe de html normal + boostrap (opc)
 
 para iniciar:
 
-````
+```
 app.engine(
   'hbs',
   exphbs.engine({
@@ -82,4 +82,4 @@ ex: this.author
 
   </div>
 {{/each}}
-````
+```
