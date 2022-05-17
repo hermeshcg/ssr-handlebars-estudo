@@ -8,6 +8,15 @@ app.engine(
   exphbs.engine({
     defaultLayout: 'main',
     extname: '.hbs',
+    helpers: {
+      getShortComment(comment) {
+        if (comment.length < 64) {
+          return comment;
+        }
+
+        return comment.substring(0, 61) + '...';
+      },
+    },
   })
 );
 
