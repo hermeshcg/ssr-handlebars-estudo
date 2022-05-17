@@ -41,7 +41,7 @@ comments: [],
 });
 });
 
-```
+````
 
 \*\*obj após o 'home' indica um obj que sera passado como parametro para a rota, no caso um array de obj chamado posts
 
@@ -60,9 +60,7 @@ sintaxe each
 dentro do each da para acessar os parametros do obj atraves do this
 ex: this.author
 
-```
-
-{{#each posts}}
+```{{#each posts}}
 
   <div class="col-lg-7" style="margin-top: 50px;">
     <div class="card">
@@ -86,4 +84,4 @@ ex: this.author
 
   </div>
 {{/each}}
-```
+````
